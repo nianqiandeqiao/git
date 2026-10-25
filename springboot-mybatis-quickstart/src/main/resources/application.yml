@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: springboot-mybatis-quickstart
+  datasource:
+    url: jdbc:mysql://localhost:3306/qiaoblog
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: qsq217324
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:mapper/*.xml
+#Mybatis的相关配置
